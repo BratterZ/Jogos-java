@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+
+:root{
+    --cor-fundo: #001d3d;
+    --cor-texto: #ffc300;
+    --cor-detalhes: #ffd60a;
+    --cor-botao: #003566;
+    --fonte: 'Gamja Flower', cursive;
+}
+
+.cabecalho{
+    text-align: center;
+}
+
+.cabecalho__titulo{
+    font-family: var(--fonte);
+    color: var(--cor-texto);
+}
+
+body{
+    background-color: var(--cor-fundo);
+}
+
+.container__titulo{
+    text-align: center;
+    font-family: var(--fonte);
+    color: var(--cor-texto);
+}
+
+.container__botoes{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.botoes{
+    padding: 1em;
+    margin: 2em 0;
+    background-color: white;
+    border: 2px solid var(--cor-botao);
+    border-radius: 8px;
+}
+
+.container__canvas{
+    text-align: center;
+}
+
+.canvas{
+    border: 4px solid var(--cor-detalhes);
+    border-radius: 6px;
+    background-color: white;
+}
+
+.botoes:hover{
+    background-color: var(--cor-botao);
+    border: 2px solid var(--cor-detalhes);
+}
