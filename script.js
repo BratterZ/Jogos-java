@@ -5,7 +5,7 @@ function tiroAoAlvo() {
     var xAleatorio;
     var yAleatorio;
 
-    pincel.fillStyle = 'lightgray';
+    pincel.fillStyle = 'white';
     pincel.fillRect(0, 0, 1200, 800);
 
     var raio = 10;

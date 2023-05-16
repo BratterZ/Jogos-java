@@ -8,8 +8,16 @@
     --fonte: 'Gamja Flower', cursive;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .cabecalho{
     text-align: center;
+    background-color: var(--cor-botao);
+    padding: 2em;
+    margin: 0;
 }
 
 .cabecalho__titulo{
@@ -25,6 +33,7 @@ body{
     text-align: center;
     font-family: var(--fonte);
     color: var(--cor-texto);
+    padding: 1em;
 }
 
 .container__botoes{
@@ -40,6 +49,7 @@ body{
     background-color: white;
     border: 2px solid var(--cor-botao);
     border-radius: 8px;
+    text-decoration: none;
 }
 
 .container__canvas{
