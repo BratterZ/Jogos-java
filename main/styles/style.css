@@ -14,16 +14,21 @@
 }
 
 .cabecalho{
+    display: flex;
     text-align: center;
-    background-color: var(--cor-botao);
-    padding: 2em;
+    padding: 1em;
     margin: 0;
-}
-
-.cabecalho__titulo{
-    font-family: var(--fonte);
+    background-color: var(--cor-botao);
     color: var(--cor-texto);
+    font-family: var(--fonte);
+    justify-content: space-between;
 }
+  
+.cabecalho__titulo{
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+} 
 
 body{
     background-color: var(--cor-fundo);
